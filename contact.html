@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Carolyn Grady</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0599685da4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../Bootstrap-portfolio/assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Marcellus+SC&display=swap" rel="stylesheet">
 </head>
@@ -16,23 +17,103 @@
     <div class="container-fluid">
         <nav class="navbar">
             <a class="navbar-brand" href="index.html">Carolyn Grady</a>
-
+          
             <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="about-me.html">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-me.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
             </ul>
-        </nav>
+          </nav>
+
+        <div class="container-fluid">
+            <div class="about-main">
+                <section class="mb-4">
+
+                    <h1>Contact Me</h1>
+
+                    <p class="text-center w-responsive mx-auto mb-4">Do you have any questions? Would you like to colaborate? Please do not hesitate
+                        to contact me directly. I will come back to you within
+                        48 hours.</p>
+
+                    <div class="row">
+
+                        <div class="col-md-9">
+                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-2">
+                                            <input class="form-control" type="text" placeholder=" First Name" id="name" name="name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-2">
+                                            <input class="form-control" type="text" placeholder=" Last Name" id="name" name="name">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-2">
+                                            <input type="text" id="subject" name="subject" class="form-control" placeholder="E-mail">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-md-12">
+
+                                        <div class="md-form mb-2">
+                                            <textarea type="text" id="message" name="message" rows="2"
+                                                class="form-control md-textarea" placeholder="Your Message..."></textarea>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </form>
+
+                            <div class="text-center text-md-left">
+                                <a class="btn btn-secondary"
+                                    onclick="document.getElementById('contact-form').submit();">Send</a>
+                            </div>
+                            <div class="status"></div>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="fab fa-github fa-2x mt-2"></i>
+                                    <a href="https://github.com/cgrady3" target="blank" class="contact-link">Github</a>
+                                </li>
 
 
+                                <li class="mb-3"><i class="fab fa-linkedin fa-2x"></i>
+                                    <a href="https://www.linkedin.com/in/carolyn-grady-78380180" target="blank" class="contact-link">LinkedIn</a>
+                                </li>
 
+                                <li><i class="fas fa-envelope-open-text fa-2x"></i>
+                                    <a href="mailto:carolyn.a.grady@gmail.com?Subject=Hello%20again" class="contact-link">carolyn.a.grady@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
 
+                    </div>
+
+                </section>
+
+            </div>
+        </div>
 
         <footer>copyright &copy;</footer>
     </div>
