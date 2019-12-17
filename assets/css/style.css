@@ -65,6 +65,18 @@ table {
 	color: #235856;
 }
 
+h1{
+	font-family: 'Marcellus SC', serif;
+	font-size: 28px;
+	font-weight: bold;
+    color: #4aaaa5;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 10px;
+    border-bottom: 1.5px solid #777777;
+    position: relative;
+}
+
 p{
 	font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
@@ -125,11 +137,13 @@ p{
 	background-color: #bbb8b8;
 }
 
-.main{
+.about-main{
 	margin: 3% 15%;
 	background-color: #ffffff;
 	border-radius: 10px;
-	height: 400px;
+	height: 500px;
+	border: 1px solid grey;
+	overflow: auto;
 }
 
 .headshot{
@@ -138,6 +152,7 @@ p{
     height: 280px;
     margin: 10px;
 	border-radius: 5px;
+	border: 1px solid grey;
 }
 
 footer{
@@ -153,3 +168,5 @@ footer{
     font-size: 12px;
     border-top: 8px solid #4aaaa5 ;  
 }
+
+::-webkit-scrollbar {}
