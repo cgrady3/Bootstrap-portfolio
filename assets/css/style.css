@@ -201,7 +201,9 @@ footer{
     border-top: 8px solid #4aaaa5 ;  
 }
 
-::-webkit-scrollbar {}
+::-webkit-scrollbar {
+	display: none;
+}
 
 .btn{
 	border-radius: 5px;
