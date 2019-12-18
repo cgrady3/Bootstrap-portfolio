@@ -62,7 +62,7 @@ table {
     font-size: 80pt;
 	font-weight: bold;
 	text-shadow: 0px 10px 18px #888888;
-	transition: font-size 2s;
+	transition: ease-in .5s;
 }
 
 #welcome:hover{
@@ -84,7 +84,6 @@ h1{
     border-bottom: 1.5px solid #777777;
 	position: relative;
 	text-shadow: 0px 10px 18px #a5a3a3;
-
 }
 
 p{
