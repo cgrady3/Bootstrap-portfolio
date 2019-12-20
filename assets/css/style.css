@@ -67,6 +67,7 @@ table {
 
 #welcome:hover{
 	text-decoration: none;
+	font-size: 83pt;
 }
 
 #welcome:active{
@@ -317,6 +318,10 @@ footer{
 	.navbar-brand{
 		margin-left: 5px;
 	}
+
+	#welcome{
+		font-size: 60pt;
+	}
 }	
 
 @media screen and (max-width: 768px){
@@ -333,6 +338,10 @@ footer{
 	.navbar-brand{
 		margin-left: 5px;
 	}
+
+	#welcome{
+		font-size: 65pt;
+	}
 }	
 
 @media screen and (max-width: 980px){
@@ -341,5 +350,9 @@ footer{
 	}
 	.contact-link{
 		font-size: 12px;
+	}
+
+	#welcome{
+		font-size: 70pt;
 	}
 }	
