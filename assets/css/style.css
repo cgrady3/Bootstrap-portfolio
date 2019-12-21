@@ -322,6 +322,15 @@ footer{
 	#welcome{
 		font-size: 60pt;
 	}
+
+	.about-main{
+		text-align: center;
+	}
+
+	.portfolio-main{
+		justify-content: flex;
+	}
+
 }	
 
 @media screen and (max-width: 768px){
