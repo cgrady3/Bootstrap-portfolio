@@ -327,7 +327,7 @@ footer{
 		text-align: center;
 	}
 
-	.portfolio-main{
+	#P-1, #P-2, #P-3, #P-4{
 		justify-content: flex;
 	}
 
