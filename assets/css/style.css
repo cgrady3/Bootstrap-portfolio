@@ -156,7 +156,6 @@ p {
 	background-color: #ffffff;
 	border-radius: 10px;
 	box-shadow: 5px 10px 18px #888888;
-	height: fit-content;
 	padding: 10px;
 }
 
@@ -273,7 +272,7 @@ footer {
 }
 
 .text-center {
-	margin-left: 33%;
+	margin-left: 30%;
 }
 
 .list-unstyled {
@@ -301,7 +300,7 @@ footer {
 
 .code-link:hover {
 	color: #474747;
-	text-decoration:none;
+	text-decoration: none;
 }
 
 @media screen and (max-width: 490px) {
@@ -326,6 +325,12 @@ footer {
 	.about-main {
 		text-align: center;
 	}
+	.text-center {
+		margin-left: 12px;
+	}
+	.contact-main{
+		margin: 8%;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -349,6 +354,12 @@ footer {
 	}
 	.about-main {
 		text-align: center;
+	}
+	.text-center {
+		margin-left: 12%;
+	}
+	.contact-main{
+		margin: 8%;
 	}
 }
 
