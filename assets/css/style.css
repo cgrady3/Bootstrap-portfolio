@@ -226,6 +226,17 @@ footer {
 	opacity: .8;
 }
 
+.P-2 {
+	height: 200px;
+	width: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+	font-family: sans-serif;
+	float: right;
+}
+
 .text-center {
 	margin-left: 30%;
 }
